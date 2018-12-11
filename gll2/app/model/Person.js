@@ -75,7 +75,7 @@ Ext.define('MyDemo.model.Person', {
                 }
 
                 for (i = 0; i < total; ++i) {//5
-                    name = getName(seenNames);//生成一个没出现的名字？？？
+                    name = getName(seenNames);//生成一个没出现的名字？？？并没有往seenNames里放数据
                     o = {//新建一个o
                         id: i + 1,
                         firstName: name.first,

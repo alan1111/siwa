@@ -26,7 +26,8 @@ Ext.define('MyDemo.view.dataBinding.Association', {
     }, {
         xtype: 'list',
         flex: 3,
-        itemTpl: 'Created: {created:date("Y-m-d")}, Key: {accountKey}',//返回的用户对象里，有这俩字段
+        itemTpl: 'Created: {created:date("Y-m-d")}, Key: {accountKey}',
+        //返回的用户对象里，有这俩字段,created用后面的转换了格式！
         items: [{//在这个list里最上面加了个titleBar
             xtype: 'titlebar',//Ext.TitleBar
             docked: 'top',
